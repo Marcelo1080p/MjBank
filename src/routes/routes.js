@@ -20,6 +20,6 @@ routes.get("/cliente/:clienteId/enderecos", enderecoController.verEndereco);
 
 
 /* VER TUDO */
-routes.get("/cliente/allClientes", allClienteController.verTodosDados)
+routes.get("/cliente/todosClientes", allClienteController.verTodosDados)
 
 module.exports = routes;
