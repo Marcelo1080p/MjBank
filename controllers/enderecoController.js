@@ -12,7 +12,7 @@ module.exports = {
       res.send("Esse cliente não existe!");
     };
     
-    const endereco = Endereco.create({ rua, numeroCasa, complemento, bairro, cidade,     estado, pais, cep, clienteId });
+    const endereco = Endereco.create({ rua, numeroCasa, complemento, bairro, cidade, estado, pais, cep, clienteId });
 
     return res.json(endereco);
   },
